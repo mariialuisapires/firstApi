@@ -2,9 +2,10 @@ package com.example.minhaapi.services;
 
 import com.example.minhaapi.model.User;
 import com.example.minhaapi.repositories.UserRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class UserService {
     private UserRepository userRepository;
 
